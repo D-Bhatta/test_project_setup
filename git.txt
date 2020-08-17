@@ -1,0 +1,200 @@
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .gitignore
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	list.txt
+	requirements_dev.txt
+	test_project_setup-env/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Already up to date.
+
+
+On branch setup
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .gitignore
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	git.txt
+	list.txt
+	requirements_dev.txt
+	test_project_setup-env/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[setup 621fe4f] Add initial files for setup
+ 1 file changed, 1 insertion(+)
+On branch setup
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	git.txt
+	list.txt
+	requirements_dev.txt
+	test_project_setup-env/
+
+nothing added to commit but untracked files present (use "git add" to track)
+On branch setup
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	git.txt
+	list.txt
+	requirements_dev.txt
+	test_project_setup-env/
+
+nothing added to commit but untracked files present (use "git add" to track)
+commit 621fe4fd6cc7f0a2c47e937d9fe35e815812c3db
+Author: D-Bhatta <dbhatta1232@gmail.com>
+Date:   Sun Aug 16 15:04:05 2020 -0400
+
+    Add initial files for setup
+
+commit 1eddeac2083cc253995559e554b9c91ca4625a1a
+Author: D-Bhatta <D-Bhatta@users.noreply.github.com>
+Date:   Sun Aug 16 09:01:43 2020 -0400
+
+    Initial commit
+Obtaining file:///J:/Education/Code/Python/Project-Setup/playground/test_project_setup
+Installing collected packages: project-name
+  Running setup.py develop for project-name
+Successfully installed project-name
+============================= test session starts =============================
+platform win32 -- Python 3.7.6, pytest-6.0.1, py-1.9.0, pluggy-0.13.1
+rootdir: J:\Education\Code\Python\Project-Setup\playground\test_project_setup
+plugins: cov-2.10.0
+collected 0 items / 1 error
+
+=================================== ERRORS ====================================
+_________________ ERROR collecting tests/test_project_name.py _________________
+ImportError while importing test module 'J:\Education\Code\Python\Project-Setup\playground\test_project_setup\tests\test_project_name.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\ProgramData\Anaconda3\lib\importlib\__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests\test_project_name.py:3: in <module>
+    from project_name import project_name
+E   ImportError: cannot import name 'project_name' from 'project_name' (J:\Education\Code\Python\Project-Setup\playground\test_project_setup\project_name.py)
+=========================== short test summary info ===========================
+ERROR tests/test_project_name.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+============================== 1 error in 0.29s ===============================
+============================= test session starts =============================
+platform win32 -- Python 3.7.6, pytest-6.0.1, py-1.9.0, pluggy-0.13.1
+rootdir: J:\Education\Code\Python\Project-Setup\playground\test_project_setup
+plugins: cov-2.10.0
+collected 2 items
+
+tests\test_project_name.py .F                                            [100%]
+
+================================== FAILURES ===================================
+__________________________ test_helloworld_exception __________________________
+
+    def test_helloworld_exception():
+        with pytest.raises(TypeError):
+>           project_name.helloworld("1")
+E           Failed: DID NOT RAISE <class 'TypeError'>
+
+tests\test_project_name.py:16: Failed
+---------------------------- Captured stdout call -----------------------------
+I am a 1.
+=========================== short test summary info ===========================
+FAILED tests/test_project_name.py::test_helloworld_exception - Failed: DID NO...
+========================= 1 failed, 1 passed in 0.12s =========================
+============================= test session starts =============================
+platform win32 -- Python 3.7.6, pytest-6.0.1, py-1.9.0, pluggy-0.13.1
+rootdir: J:\Education\Code\Python\Project-Setup\playground\test_project_setup
+plugins: cov-2.10.0
+collected 2 items
+
+tests\test_project_name.py ..                                            [100%]
+
+============================== 2 passed in 0.11s ==============================
+pre-commit installed at .git\hooks\pre-commit
+[INFO][m Installing environment for https://github.com/pre-commit/pre-commit-hooks.
+[INFO][m Once installed this environment will be reused.
+[INFO][m This may take a few minutes...
+[INFO][m Installing environment for https://github.com/timothycrosley/isort.
+[INFO][m Once installed this environment will be reused.
+[INFO][m This may take a few minutes...
+[INFO][m Installing environment for https://github.com/adrienverge/yamllint.git.
+[INFO][m Once installed this environment will be reused.
+[INFO][m This may take a few minutes...
+black........................................................................[41mFailed[m
+[2m- hook id: black[m
+[2m- files were modified by this hook[m
+
+reformatted J:\Education\Code\Python\Project-Setup\playground\test_project_setup\test_project_setup-env\Scripts\grip-script.py
+reformatted J:\Education\Code\Python\Project-Setup\playground\test_project_setup\test_project_setup-env\Scripts\rst2html.py
+reformatted J:\Education\Code\Python\Project-Setup\playground\test_project_setup\test_project_setup-env\Scripts\rst2html4.py
+reformatted J:\Education\Code\Python\Project-Setup\playground\test_project_setup\test_project_setup-env\Scripts\rst2html5.py
+reformatted J:\Education\Code\Python\Project-Setup\playground\test_project_setup\test_project_setup-env\Scripts\rst2latex.py
+reformatted J:\Education\Code\Python\Project-Setup\playground\test_project_setup\test_project_setup-env\Scripts\rst2man.py
+reformatted J:\Education\Code\Python\Project-Setup\playground\test_project_setup\test_project_setup-env\Scripts\rst2odt.py
+reformatted J:\Education\Code\Python\Project-Setup\playground\test_project_setup\test_project_setup-env\Scripts\rst2pseudoxml.py
+reformatted J:\Education\Code\Python\Project-Setup\playground\test_project_setup\test_project_setup-env\Scripts\rst2s5.py
+reformatted J:\Education\Code\Python\Project-Setup\playground\test_project_setup\test_project_setup-env\Scripts\rst2xetex.py
+reformatted J:\Education\Code\Python\Project-Setup\playground\test_project_setup\test_project_setup-env\Scripts\rst2xml.py
+reformatted J:\Education\Code\Python\Project-Setup\playground\test_project_setup\test_project_setup-env\Scripts\rstpep2html.py
+reformatted J:\Education\Code\Python\Project-Setup\playground\test_project_setup\test_project_setup-env\Scripts\rst2odt_prepstyles.py
+All done! \u2728 \U0001f370 \u2728
+13 files reformatted, 6 files left unchanged.
+
+Check Yaml...................................................................[42mPassed[m
+Fix End of Files.............................................................[41mFailed[m
+[2m- hook id: end-of-file-fixer[m
+[2m- exit code: 1[m
+[2m- files were modified by this hook[m
+
+Fixing list.txt
+
+Trim Trailing Whitespace.....................................................[41mFailed[m
+[2m- hook id: trailing-whitespace[m
+[2m- exit code: 1[m
+[2m- files were modified by this hook[m
+
+Fixing list.txt
+Fixing git.txt
+
+Debug Statements (Python)....................................................[42mPassed[m
+Check for merge conflicts....................................................[42mPassed[m
+Check Xml................................................(no files to check)[46;30mSkipped[m
+Check JSON...............................................(no files to check)[46;30mSkipped[m
+Check docstring is first.....................................................[42mPassed[m
+Fix requirements.txt.........................................................[42mPassed[m
+Detect Private Key...........................................................[42mPassed[m
+blacken-docs.................................................................[42mPassed[m
+setup-cfg-fmt............................................(no files to check)[46;30mSkipped[m
+isort........................................................................[41mFailed[m
+[2m- hook id: isort[m
+[2m- files were modified by this hook[m
+
+Fixing J:\Education\Code\Python\Project-Setup\playground\test_project_setup\test_project_setup-env\Scripts\rst2s5.py
+Fixing J:\Education\Code\Python\Project-Setup\playground\test_project_setup\test_project_setup-env\Scripts\rst2pseudoxml.py
+Fixing J:\Education\Code\Python\Project-Setup\playground\test_project_setup\test_project_setup-env\Scripts\rst2odt_prepstyles.py
+Fixing J:\Education\Code\Python\Project-Setup\playground\test_project_setup\test_project_setup-env\Scripts\rst2odt.py
+Fixing J:\Education\Code\Python\Project-Setup\playground\test_project_setup\test_project_setup-env\Scripts\rst2xml.py
+Fixing J:\Education\Code\Python\Project-Setup\playground\test_project_setup\test_project_setup-env\Scripts\rst2html5.py
+Fixing J:\Education\Code\Python\Project-Setup\playground\test_project_setup\test_project_setup-env\Scripts\rst2html4.py
+Fixing J:\Education\Code\Python\Project-Setup\playground\test_project_setup\test_project_setup-env\Scripts\rstpep2html.py
+Fixing J:\Education\Code\Python\Project-Setup\playground\test_project_setup\test_project_setup-env\Scripts\grip-script.py
+Fixing J:\Education\Code\Python\Project-Setup\playground\test_project_setup\test_project_setup-env\Scripts\rst2man.py
+Fixing J:\Education\Code\Python\Project-Setup\playground\test_project_setup\test_project_setup-env\Scripts\rst2html.py
+Fixing J:\Education\Code\Python\Project-Setup\playground\test_project_setup\tests\test_project_name.py
+
+rst ``code`` is two backticks............................(no files to check)[46;30mSkipped[m
+yamllint.....................................................................[41mFailed[m
+[2m- hook id: yamllint[m
+[2m- exit code: 1[m
+
+.pre-commit-config.yaml:1:4: [error] wrong new line character: expected \n (new-lines)
+.travis.yml:1:4: [error] wrong new line character: expected \n (new-lines)
+
+HTML img tag alt text checker............................(no files to check)[46;30mSkipped[m
+Check .rst files with the same linter used by pypi.org...(no files to check)[46;30mSkipped[m
